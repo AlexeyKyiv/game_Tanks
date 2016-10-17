@@ -1,0 +1,9 @@
+d:\d o c u m e n t s\visual studio 2013\Projects\cc_Tanks\cc_Tanks\bin\Debug\cc_Tanks.exe.config
+d:\d o c u m e n t s\visual studio 2013\Projects\cc_Tanks\cc_Tanks\bin\Debug\cc_Tanks.exe
+d:\d o c u m e n t s\visual studio 2013\Projects\cc_Tanks\cc_Tanks\bin\Debug\cc_Tanks.pdb
+d:\d o c u m e n t s\visual studio 2013\Projects\cc_Tanks\cc_Tanks\obj\Debug\cc_Tanks.csproj.GenerateResource.Cache
+d:\d o c u m e n t s\visual studio 2013\Projects\cc_Tanks\cc_Tanks\obj\Debug\cc_Tanks.exe
+d:\d o c u m e n t s\visual studio 2013\Projects\cc_Tanks\cc_Tanks\obj\Debug\cc_Tanks.pdb
+d:\d o c u m e n t s\visual studio 2013\Projects\cc_Tanks\cc_Tanks\obj\Debug\ccTanks.Properties.Resources.resources
+d:\d o c u m e n t s\visual studio 2013\Projects\cc_Tanks\cc_Tanks\obj\Debug\ccTanks.View.resources
+d:\d o c u m e n t s\visual studio 2013\Projects\cc_Tanks\cc_Tanks\obj\Debug\ccTanks.ControllerMainForm.resources

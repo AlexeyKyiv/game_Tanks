@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Apple.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crash_Tank__1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CrashTank\Crash_Tank__1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crash_Tank__2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CrashTank\Crash_Tank__2.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crash_Tank__3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CrashTank\Crash_Tank__3.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Tank01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_Tank01.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Tank01i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_Tank01i.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Tank01ii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_Tank01ii.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Tank0_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_Tank0_1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Tank0_1i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_Tank0_1i.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Tank0_1ii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_Tank0_1ii.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Tank10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_Tank10.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Tank10i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_Tank10i.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Tank10ii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_Tank10ii.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Tank_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_Tank_10.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Tank_10i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_Tank_10i.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="H_Tank_10ii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\H_Tank_10ii.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ile01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ile01.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ile0_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ile0_1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ile10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ile10.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ile_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ile_10.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainIcon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ppp1play1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clickSP\ppp1play.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ppp2pause1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clickSP\ppp2pause.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Tank01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Tank01.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Tank01i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Tank01i.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Tank01ii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Tank01ii.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Tank0_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Tank0_1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Tank0_1i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Tank0_1i.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Tank0_1ii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Tank0_1ii.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Tank10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Tank10.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Tank10i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Tank10i.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Tank10ii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Tank10ii.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Tank_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Tank_10.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Tank_10i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Tank_10i.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P_Tank_10ii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P_Tank_10ii.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tank01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tank01.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tank01i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tank01i.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tank01ii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tank01ii.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tank0_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tank.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tank0_1i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tank0_1i.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tank0_1ii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tank0_1ii.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tank10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tank10.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tank10i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tank10i.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tank10ii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tank10ii.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tank_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tank_10.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tank_10i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tank_10i.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tank_10ii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tank_10ii.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wall.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EXIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tanks_Icon\EXIT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tanks_Icon\INFO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="INFO_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tanks_Icon\INFO_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PLAY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tanks_Icon\PLAY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PLAY_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tanks_Icon\PLAY_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tanks_Icon\SET.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SOUND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tanks_Icon\SOUND.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NOsound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tanks_Icon\NOsound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soundTanks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soundTanks.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MainIcon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tanks_Icon\MainIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FOOBAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tanks_Icon\FOOBAR.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

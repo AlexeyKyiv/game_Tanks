@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{81BA5EF2-29B0-45A3-9559-F19C58A34DE6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CCTanks</RootNamespace>
+    <AssemblyName>CCTanks</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>D:\TanksInstall\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>en</TargetCulture>
+    <ProductName>Tanks</ProductName>
+    <PublisherName>AlexGame</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>FOOBAR.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Tanks_TemporaryKey.pfx.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7F4990A624F5A24E4DEF83C540F14425AEF1B385</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CCTanks_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apple.cs" />
+    <Compile Include="AppleImg.cs" />
+    <Compile Include="ControllerMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControllerMainForm.Designer.cs">
+      <DependentUpon>ControllerMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FireTank.cs" />
+    <Compile Include="FireTankImg.cs" />
+    <Compile Include="GameStatus.cs" />
+    <Compile Include="Hunter.cs" />
+    <Compile Include="HunterImg.cs" />
+    <Compile Include="ICurentPicture.cs" />
+    <Compile Include="IPicture.cs" />
+    <Compile Include="IRan.cs" />
+    <Compile Include="ITransparent.cs" />
+    <Compile Include="ITurn.cs" />
+    <Compile Include="ITurnAround.cs" />
+    <Compile Include="Model.cs" />
+    <Compile Include="Packman.cs" />
+    <Compile Include="PackmanImg.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Projectile.cs" />
+    <Compile Include="ProjectileImg.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tank.cs" />
+    <Compile Include="TankImg.cs" />
+    <Compile Include="View.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View.Designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wall.cs" />
+    <Compile Include="WallImg.cs" />
+    <EmbeddedResource Include="ControllerMainForm.resx">
+      <DependentUpon>ControllerMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View.resx">
+      <DependentUpon>View.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CCTanks_TemporaryKey.pfx" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Tanks_TemporaryKey.pfx.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tank.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tank01.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tank10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tank_10.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tank0_1i.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tank0_1ii.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tank_10ii.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tank01ii.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tank10ii.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tank10i.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tank01i.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tank_10i.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apple.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FOOBAR.ico" />
+    <Content Include="Resources\FOOBAR.ico" />
+    <Content Include="Resources\INFO_2.png" />
+    <Content Include="Resources\MainIcon.png" />
+    <Content Include="Resources\NOsound.png" />
+    <Content Include="Resources\SET.png" />
+    <Content Include="Resources\SOUND.png" />
+    <Content Include="Resources\soundTanks.wav" />
+    <None Include="Resources\tanks_Icon\FOOBAR.ico" />
+    <None Include="Resources\tanks_Icon\MainIcon.png" />
+    <None Include="Resources\tanks_Icon\NOsound.png" />
+    <None Include="Resources\tanks_Icon\INFO_2.png" />
+    <None Include="Resources\tanks_Icon\SOUND.png" />
+    <None Include="Resources\tanks_Icon\SET.png" />
+    <None Include="Resources\tanks_Icon\PLAY_2.png" />
+    <None Include="Resources\tanks_Icon\PLAY.png" />
+    <None Include="Resources\tanks_Icon\INFO.png" />
+    <None Include="Resources\tanks_Icon\EXIT.png" />
+    <None Include="Resources\CrashTank\Crash_Tank__1.bmp" />
+    <None Include="Resources\CrashTank\Crash_Tank__2.bmp" />
+    <None Include="Resources\CrashTank\Crash_Tank__3.bmp" />
+    <None Include="Resources\clickSP\ppp1play.jpg" />
+    <None Include="Resources\clickSP\ppp2pause.jpg" />
+    <None Include="Resources\clickSP\ppp1play.gif" />
+    <None Include="Resources\clickSP\ppp2pause.gif" />
+    <Content Include="Resources\Crash_Tank__1.bmp" />
+    <Content Include="Resources\Crash_Tank__2.bmp" />
+    <Content Include="Resources\Crash_Tank__3.bmp" />
+    <Content Include="Resources\EXIT.png" />
+    <Content Include="Resources\H_Tank01.bmp" />
+    <Content Include="Resources\H_Tank01i.bmp" />
+    <Content Include="Resources\H_Tank01ii.bmp" />
+    <Content Include="Resources\H_Tank0_1.bmp" />
+    <Content Include="Resources\H_Tank0_1i.bmp" />
+    <Content Include="Resources\H_Tank0_1ii.bmp" />
+    <Content Include="Resources\H_Tank10.bmp" />
+    <Content Include="Resources\H_Tank10i.bmp" />
+    <Content Include="Resources\H_Tank10ii.bmp" />
+    <Content Include="Resources\H_Tank_10.bmp" />
+    <Content Include="Resources\H_Tank_10i.bmp" />
+    <Content Include="Resources\H_Tank_10ii.bmp" />
+    <None Include="Resources\Ile0_1.bmp" />
+    <None Include="Resources\Ile_10.bmp" />
+    <None Include="Resources\Ile01.bmp" />
+    <None Include="Resources\Ile10.bmp" />
+    <Content Include="Resources\INFO.png" />
+    <Content Include="Resources\PLAY.png" />
+    <Content Include="Resources\PLAY_2.png" />
+    <Content Include="Resources\ppp1play.gif" />
+    <Content Include="Resources\ppp2pause.gif" />
+    <Content Include="Resources\P_Tank01.bmp" />
+    <Content Include="Resources\P_Tank01i.bmp" />
+    <Content Include="Resources\P_Tank01ii.bmp" />
+    <Content Include="Resources\P_Tank0_1.bmp" />
+    <Content Include="Resources\P_Tank0_1i.bmp" />
+    <Content Include="Resources\P_Tank0_1ii.bmp" />
+    <Content Include="Resources\P_Tank10.bmp" />
+    <Content Include="Resources\P_Tank10i.bmp" />
+    <Content Include="Resources\P_Tank10ii.bmp" />
+    <Content Include="Resources\P_Tank_10.bmp" />
+    <Content Include="Resources\P_Tank_10i.bmp" />
+    <Content Include="Resources\P_Tank_10ii.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.1 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 с пакетом обновления 1 %28SP1%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

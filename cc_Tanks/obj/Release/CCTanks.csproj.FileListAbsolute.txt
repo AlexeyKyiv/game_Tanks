@@ -1,0 +1,14 @@
+D:\D o c u m e n t s\Visual Studio 2013\Projects\cc_Tanks\cc_Tanks\bin\Release\CCTanks.exe.config
+D:\D o c u m e n t s\Visual Studio 2013\Projects\cc_Tanks\cc_Tanks\bin\Release\CCTanks.exe
+D:\D o c u m e n t s\Visual Studio 2013\Projects\cc_Tanks\cc_Tanks\bin\Release\CCTanks.pdb
+D:\D o c u m e n t s\Visual Studio 2013\Projects\cc_Tanks\cc_Tanks\obj\Release\CCTanks.ControllerMainForm.resources
+D:\D o c u m e n t s\Visual Studio 2013\Projects\cc_Tanks\cc_Tanks\obj\Release\CCTanks.Properties.Resources.resources
+D:\D o c u m e n t s\Visual Studio 2013\Projects\cc_Tanks\cc_Tanks\obj\Release\CCTanks.View.resources
+D:\D o c u m e n t s\Visual Studio 2013\Projects\cc_Tanks\cc_Tanks\obj\Release\CCTanks.csproj.GenerateResource.Cache
+D:\D o c u m e n t s\Visual Studio 2013\Projects\cc_Tanks\cc_Tanks\obj\Release\CCTanks.exe
+D:\D o c u m e n t s\Visual Studio 2013\Projects\cc_Tanks\cc_Tanks\obj\Release\CCTanks.pdb
+D:\D o c u m e n t s\Visual Studio 2013\Projects\cc_Tanks\cc_Tanks\bin\Release\CCTanks.exe.manifest
+D:\D o c u m e n t s\Visual Studio 2013\Projects\cc_Tanks\cc_Tanks\bin\Release\CCTanks.application
+D:\D o c u m e n t s\Visual Studio 2013\Projects\cc_Tanks\cc_Tanks\obj\Release\CCTanks.exe.manifest
+D:\D o c u m e n t s\Visual Studio 2013\Projects\cc_Tanks\cc_Tanks\obj\Release\CCTanks.application
+D:\D o c u m e n t s\Visual Studio 2013\Projects\cc_Tanks\cc_Tanks\obj\Release\CCTanks.csprojResolveAssemblyReference.cache
