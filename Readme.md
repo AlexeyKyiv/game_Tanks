@@ -1,0 +1,1 @@
+The document is instruction of project "tanks"
