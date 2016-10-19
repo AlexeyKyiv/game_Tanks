@@ -1,1 +1,1 @@
-The document is instruction of project "tanks"
+The small game "tanks", C#
